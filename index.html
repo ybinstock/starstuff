@@ -28,10 +28,12 @@
 
   </a-assets>
 
-  <a-camera wasd-controls="enabled: true"> </a-camera>
+  <a-camera wasd-controls="enabled: true" id="script"
+            sound="src: url(tysonscript.mp3); volume: 3; autoplay:true;"></a-camera>
 
   <!--galaxy 1-->
-  <a-entity geometry="primitive: plane; side:back;" material="opacity:.4; src: #galaxy2"  position="0 1 -4" rotation="0 0 0">
+  <a-entity geometry="primitive: plane; side:back;" material="opacity:.4; src: #galaxy2" position="0 1 -4"
+            rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -39,7 +41,7 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy2"  position="0 4 -10" rotation="90 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy2" position="0 4 -10" rotation="90 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -47,7 +49,7 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy2"  position="2 1 -8" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy2" position="2 1 -8" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -55,7 +57,7 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy2"  position="12 -10 -20" rotation="0 60 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy2" position="12 -10 -20" rotation="0 60 0">
     <a-animation attribute="rotation"
                  dur="20000"
                  fill="forwards"
@@ -63,7 +65,7 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy2"  position="-2 6 6" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy2" position="-2 6 6" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -73,7 +75,7 @@
 
   <!--galaxy 2-->
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy3"  position="6 4 -6" rotation="0 0 90">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy3" position="6 4 -6" rotation="0 0 90">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -81,7 +83,7 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy3"  position="4 -4 6" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy3" position="4 -4 6" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -89,7 +91,7 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy3"  position="14 14 -16" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy3" position="14 14 -16" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -97,7 +99,7 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy3"  position="-24 4 -26" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy3" position="-24 4 -26" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -105,7 +107,7 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy3"  position="18 -10 16" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy3" position="18 -10 16" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -115,7 +117,7 @@
 
   <!--galaxy 4-->
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy4"  position="12 10 16" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy4" position="12 10 16" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -123,7 +125,7 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy4"  position="-4 0 -16" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy4" position="-4 0 -16" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -132,7 +134,7 @@
   </a-entity>
 
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy4"  position="4 -2 -20" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy4" position="4 -2 -20" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -141,7 +143,7 @@
   </a-entity>
 
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy4"  position="12 4 16" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy4" position="12 4 16" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -149,7 +151,7 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy4"  position="-12 -16 16" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy4" position="-12 -16 16" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -159,7 +161,7 @@
 
   <!--galaxy 5-->
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy5"  position="-18 -10 -46" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy5" position="-18 -10 -46" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -168,7 +170,7 @@
   </a-entity>
 
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy5"  position="-48 10 -36" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy5" position="-48 10 -36" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -177,7 +179,7 @@
   </a-entity>
 
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy5"  position="-33 17 -16" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy5" position="-33 17 -16" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -185,7 +187,7 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy5"  position="33 -33 16" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy5" position="33 -33 16" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -195,7 +197,7 @@
 
   <!--galaxy 6-->
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy6"  position="-4.5 -4.4 -66" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy6" position="-4.5 -4.4 -66" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -203,7 +205,7 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy6"  position="55.5 -1.5 -26" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy6" position="55.5 -1.5 -26" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -212,7 +214,7 @@
   </a-entity>
 
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy6"  position="-11.5 -44 36" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy6" position="-11.5 -44 36" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -221,7 +223,7 @@
   </a-entity>
 
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy6"  position="12.5 16.5 46" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy6" position="12.5 16.5 46" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -229,7 +231,7 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy6"  position="5.5 15.5 6" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy6" position="5.5 15.5 6" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -240,7 +242,8 @@
 
   <!--galaxy 7-->
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy7"  position="-14.4 -14.4 14.4" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy7" position="-14.4 -14.4 14.4"
+            rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -248,7 +251,7 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy7"  position="22.2 22.2 -22" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy7" position="22.2 22.2 -22" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -257,7 +260,7 @@
   </a-entity>
 
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy7"  position="-22.2 -22.2 22" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy7" position="-22.2 -22.2 22" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -268,7 +271,7 @@
 
   <!--galaxy 8-->
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy8"  position="38 -38 -33" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy8" position="38 -38 -33" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -276,7 +279,8 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy8"  position="-18.8 -19.5 11.5" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy8" position="-18.8 -19.5 11.5"
+            rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -284,7 +288,7 @@
                  repeat="indefinite"></a-animation>
   </a-entity>
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy8"  position="4 -44.8 -13" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy8" position="4 -44.8 -13" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -294,7 +298,7 @@
 
   <!--galaxy 9-->
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy9"  position="6 6 6" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy9" position="6 6 6" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -304,7 +308,7 @@
 
   <!--galaxy 10-->
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy10"  position="5 5 5" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy10" position="5 5 5" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -314,7 +318,7 @@
 
   <!--galaxy 11-->
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy11"  position="-5 -5 -5" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy11" position="-5 -5 -5" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -324,7 +328,7 @@
 
   <!--galaxy 12-->
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy12"  position="-4 -4 4" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy12" position="-4 -4 4" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -334,7 +338,7 @@
 
   <!--galaxy 13-->
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy13"  position="4 4 4" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy13" position="4 4 4" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -344,7 +348,7 @@
 
   <!--galaxy 14-->
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy14"  position="-3 -3 -3" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy14" position="-3 -3 -3" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -354,7 +358,7 @@
 
   <!--galaxy 15-->
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy15"  position="3 3 3" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy15" position="3 3 3" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -364,7 +368,7 @@
 
   <!--galaxy 16-->
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy16"  position="-2 -2 -2" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy16" position="-2 -2 -2" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
@@ -374,19 +378,13 @@
 
   <!--galaxy 17-->
 
-  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy17"  position="2 2 2" rotation="0 0 0">
+  <a-entity geometry="primitive: plane" material="opacity:.4; src: #galaxy17" position="2 2 2" rotation="0 0 0">
     <a-animation attribute="rotation"
                  dur="40000"
                  fill="forwards"
                  to="0 0 360"
                  repeat="indefinite"></a-animation>
   </a-entity>
-
-
-  <!--script-->
-  <a-entity id="script" geometry="primitive: plane" material="color: blue; opacity: 0"
-            sound="src: url(tysonscript.mp3); volume: 3; autoplay:true;"></a-entity>
-
 
   <a-sky src="stars.jpg"></a-sky>
 
